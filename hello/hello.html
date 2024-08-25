@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Name</label>
+    <input type="text" id="txt1">
+    <button type="button" onclick="done()" value="submit">Submit</button>
+</body>
+<script>
+    function done(){
+        var a=document.getElementById('txt1');
+        if(a.value==""){
+            alert("please enter sometghing")
+        }
+        else{
+            alert("you answer is :"+a.value)
+        }
+    }
+</script>
+</html>
